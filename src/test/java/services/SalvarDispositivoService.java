@@ -34,7 +34,7 @@ public class SalvarDispositivoService {
 
     public void setFieldsDispositivo(String field, String value) {
         switch (field) {
-            case "nome" -> dispositivoModel.setNome(value);
+            case "nome" -> dispositivoModel.setNome(value + System.currentTimeMillis());
             case "dispositivo" -> dispositivoModel.setDispositivo(value);
             case "status" -> dispositivoModel.setStatus(value);
             case "nomeUnidade" -> dispositivoModel.setNomeUnidade(value);
