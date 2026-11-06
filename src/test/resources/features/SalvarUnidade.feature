@@ -1,4 +1,5 @@
 #language: pt
+@regressivo
 Funcionalidade: Salvar dados de um dispositivo
   Contexto: Autorizacao Login bem-sucedida
     Dado que eu tenha o seguinte usuario:
